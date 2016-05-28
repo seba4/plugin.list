@@ -4,6 +4,38 @@
 # Style gems
 
 ## AppViews
+
+ > Automatic page load progress bar
+```
+gem 'pace-rails'
+```
+ 
+ > small jQuery plugin that transforms any div into a scrollable area with a nice scrollbar. 
+```
+gem 'jquery-slimscroll-rails'
+```
+ 
+ > A jQuery menu plugin
+```
+gem 'metismenu-rails', github: 'lanvige/metismenu-rails'
+```
+ 
+ > Micro client-side router inspired by the Express router 
+```
+gem 'metismenu-rails', github: 'lanvige/metismenu-rails'
+```
+ 
+ > In-browser code editor
+```
+gem 'codemirror-rails'
+```
+ 
+ > Drag & drop hierarchical list with mouse and touch compatibility
+```
+gem 'nestable-rails'
+```
+ 
+
  > Identical inputs across different browsers and devices
 ```
 gem 'icheck-rails'
@@ -13,6 +45,23 @@ gem 'icheck-rails'
 ```
 gem 'fullcalendar-rails'
 ```
+
+ > jQuery.dotdotdot, advanced cross-browser ellipsis for multiple line content.
+```
+gem 'jquery-dotdotdot-rails'
+```
+
+ > i18next plugin for jquery usage
+```
+https://github.com/i18next/jquery-i18next
+```
+
+ > A modern approach to copy text to clipboard
+```
+https://clipboardjs.com/
+```
+
+
 
 
 
@@ -43,6 +92,17 @@ gem 'jvectormap-rails', :git => 'https://github.com/seba4/jvectormap-rails.git',
 
 
 ## Forms
+
+ > Nice, downward compatible, touchable, jQuery dial.
+```
+gem 'jQuery-Knob-rails', git: "https://github.com/seba4/jQuery-Knob-rails.git", tag: "1.2.13"
+```
+
+ > The jQuery Validation Plugin provides drop-in validation for your existing forms, while making all kinds of customizations to fit your application really easy.
+```
+gem 'jquery-validation-rails'
+```
+
  > Simple Form aims to be as flexible as possible while helping you with powerful components to create your forms.
 ```
 gem 'simple_form'
@@ -128,6 +188,11 @@ gem "select2-rails"
 gem 'rails-bootstrap-markdown'
 ```
 
+ > jQuery edit in place plugin. Extendable via plugin architecture. Plugins for plugin. 
+```
+gem 'jeditable-rails'
+```
+
 
 
 ## Galery
@@ -136,9 +201,36 @@ gem 'rails-bootstrap-markdown'
 gem 'blueimp-gallery'
 ```
 
+ > Cascading grid layout library
+```
+gem 'masonry-rails'
+```
+
 
 
 ## Graphs
+
+
+ > Attractive JavaScript charts for jQuery
+```
+gem 'flot-rails', :git => "https://github.com/Kjarrigan/flot-rails.git"
+```
+
+ > Rickshaw, a javascript graphing library based on d3, for the rails asset pipeline
+```
+gem 'rickshaw_rails'
+```
+
+ > Peity (sounds like deity) is a simple jQuery plugin that converts an element's content into a simple <svg> mini pie donut line or bar chart and is compatible with any browser that supports <svg>: Chrome, Firefox, IE9+, Opera, Safari.
+```
+gem 'jquery-peity-rails'
+```
+
+ > A plugin for the jQuery javascript library to generate small sparkline charts directly in the browser
+```
+gem 'jquery-sparkline-rails', git: "https://github.com/RobAtHedtek/jquery-sparkline-rails.git"
+```
+
  > good-looking charts shouldn't be difficult
 ```
 gem 'morrisjs-rails'
@@ -155,7 +247,23 @@ gem 'chartist-rails'
 gem 'c3-rails'
 ```
 
+
+ > Simple HTML5 Charts using the <canvas> tag
+```
+gem 'chart-js-rails'
+
+```
+
+
 ## Miscellaneous
+
+
+
+ > provides you a way to monitor user activity with a page. (Not prepared for Rails)
+```
+https://github.com/thorst/jquery-idletimer
+```
+
  > jsTree is jquery plugin, that provides interactive trees.
 ```
 gem "jstree-rails-4"
@@ -175,6 +283,11 @@ gem 'ladda-bootstrap-rails', :git => 'git://github.com/vendji/ladda-bootstrap-ra
 ```
 gem 'bootstrap-tour-rails'
 ```
+
+ > A small library for manipulating the favicon, in particular adding alert bubbles and changing images. 
+```
+gem "tinycon-rails" 
+``` 
 
 
 
