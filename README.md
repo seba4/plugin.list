@@ -4,20 +4,33 @@
 # Style gems
 
 ## AppViews
+
+> Identical inputs across different browsers and devices
 ```
-gem 'icheck-rails' > Identical inputs across different browsers and devices
-gem 'fullcalendar-rails' > A JavaScript event calendar. Customizable and open source.
+gem 'icheck-rails'
+```
+
+> A JavaScript event calendar. Customizable and open source.
+```
+gem 'fullcalendar-rails'
 ```
 
 ## Commerce
+ > FooTable is a jQuery plugin that aims to make HTML tables on smaller devices look awesome
 ```
-gem 'foo_table-rails' > FooTable is a jQuery plugin that aims to make HTML tables on smaller devices look awesome
-gem "jquery-slick-rails" > the last carousel you'll ever need. Slideshow
+gem 'foo_table-rails'
+```
+
+> the last carousel you'll ever need. Slideshow
+```
+gem "jquery-slick-rails"
+
 ```
 
 ## Dashboards
+> toastr is a Javascript library for non-blocking notifications. jQuery is required.
 ```
-gem 'toastr_rails' > toastr is a Javascript library for non-blocking notifications. jQuery is required.
+gem 'toastr_rails'
 ```
 
 > jVectorMap is a vector-based, cross-browser and cross-platform component for interactive geography-related data visualization on the web.
