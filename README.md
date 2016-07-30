@@ -386,13 +386,13 @@ gem 'jqgrid-jquery-rails', '~> 4.6.001'
 gem 'footable-on-rails'
 ```
 
-
 ## Development / Testing    
  > A Ruby static code analyzer, based on the community Ruby style guide.
 ```
 gem 'rubocop', require: false
 ```
   
+
  > A static analysis security vulnerability scanner for Ruby on Rails applications
 ```
 group :development do
