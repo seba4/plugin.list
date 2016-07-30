@@ -3,7 +3,26 @@
 
 # Style gems
 
+## Deployment
+ > Really fast deployer and server automation tool.
+```
+gem "mina"
+``` 
+
+
+## Database
+ > Sequel: The Database Toolkit for Ruby
+```
+gem "sequel"
+``` 
+
+
 ## AppViews
+
+ > Slim templates generator for Rails 3, 4 and 5
+```
+gem "slim-rails"
+``` 
 
  > Automatic page load progress bar
 ```
@@ -61,7 +80,45 @@ https://github.com/i18next/jquery-i18next
 https://clipboardjs.com/
 ```
 
+ > A Scope & Engine based, clean, powerful, customizable and sophisticated paginator for modern web app frameworks and ORMs
+```
+gem 'kaminari'
+```
 
+
+## Analytics
+
+ > Ahoy provides a solid foundation to track visits and events in Ruby, JavaScript, and native apps.
+```
+gem 'ahoy_matey'
+``` 
+
+## Search
+
+ > Object-based searching.
+```
+gem 'ransack'
+``` 
+
+ > Intelligent search made easy for Rails
+```
+gem 'searchkick'
+``` 
+
+ > Simple Ruby on Rails plugin for creating meta tags.
+```
+gem 'metamagic'
+``` 
+
+ > Easiest way to add multi-environment yaml settings to Rails, Sinatra, Pandrino and other ruby projects.
+```
+gem 'config'
+``` 
+
+ > Elasticsearch integrations for ActiveModel/Record and Ruby on Rails
+```
+gem 'elasticsearch-model'
+``` 
 
 
 
@@ -188,6 +245,13 @@ gem "select2-rails"
 gem 'rails-bootstrap-markdown'
 ```
 
+ > The safe Markdown parser, reloaded.
+```
+gem 'redcarpet'
+```
+
+
+
  > jQuery edit in place plugin. Extendable via plugin architecture. Plugins for plugin. 
 ```
 gem 'jeditable-rails'
@@ -289,6 +353,21 @@ gem 'bootstrap-tour-rails'
 gem "tinycon-rails" 
 ``` 
 
+ > Complete Ruby geocoding solution.
+```
+gem "Geocoder" 
+``` 
+
+ > A Rails Engine for integrating with stripe.com
+```
+gem 'stripe-rails'
+``` 
+
+ > Active Merchant is a simple payment abstraction library extracted from Shopify.
+```
+gem "active_merchant" 
+``` 
+
 
 
 ## Tables
@@ -306,3 +385,34 @@ gem 'jqgrid-jquery-rails', '~> 4.6.001'
 ```
 gem 'footable-on-rails'
 ```
+
+
+## Development / Testing    
+ > A Ruby static code analyzer, based on the community Ruby style guide.
+```
+gem 'rubocop', require: false
+```
+  
+ > A static analysis security vulnerability scanner for Ruby on Rails applications
+```
+group :development do
+  gem 'brakeman', :require => false
+end
+```
+
+ > Record your test suite's HTTP interactions and replay them during future test runs for fast, deterministic, accurate tests.
+```
+gem "vcr"
+```
+
+
+## Administrator
+ > The administration framework for Ruby on Rails applications.
+```
+gem 'activeadmin', github: 'activeadmin'
+```
+  
+  
+## OTHER USEFULL LINKS
+> https://github.com/hothero/awesome-rails-gem
+> http://blog.railsrumble.com/2016/01/15/gem-teardown/
